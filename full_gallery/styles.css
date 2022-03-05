@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #f3f3f3;
+}
+
+.row {
+  margin: 15px;
+}
+
+.title {
+  position: relative;
+  font-size: 50px;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+
+.videos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+iframe {
+  padding: 1rem;
+}
